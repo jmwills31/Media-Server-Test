@@ -1,0 +1,11 @@
+{
+  "name": "Home Media Server",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "jellyfin",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-azuretools.vscode-docker"]
+    }
+  }
+}
